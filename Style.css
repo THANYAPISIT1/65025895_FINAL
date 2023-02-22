@@ -1,0 +1,27 @@
+.containner{
+    margin: 0 25% 0 25%;
+    padding-left: 20px;
+    padding-right:20px; 
+    background-image: linear-gradient(to right,rgb(0, 191, 255), rgb(198, 27, 255));
+    
+}
+
+input{
+    text-align: center;
+
+}
+
+table {
+    border: 2px black;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

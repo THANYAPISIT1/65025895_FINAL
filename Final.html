@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="containner">
+        <h1 style="text-align: center;">Insert Data</h1><br>
+        name <br>
+        <input type="text" id="NameInput" onfocus="FocusBox(this)" onblur="BlurBox(this)" onchange="removeInstName()">
+        <br><br>
+        Surname <br>
+        <input type="text" id="SurnameInput" onfocus="FocusBox(this)" onblur="BlurBox(this)" onchange="removeInstSur()">
+        <br><br>
+        Gender <br>
+        <input type="text" id="GenderInput" onfocus="FocusBox(this)" onblur="BlurBox(this)" onchange="removeInstSur()">
+        <br><br>
+        Date of Birth <br>
+        <br><br>
+        <input type="date" id="GenderInput" onchange="removeInstBD()">
+        <br><br>
+        <!-- submit button -->
+        <button id="submit" onclick="Submit()"> Submit </button>
+        <br><br>
+        
+    </div>
+    <!-- table -->
+    <table>
+        <tr>
+          <th>Name</th>
+          <th>Surname</th>
+          <th>Gender</th>
+          <th>Birth Date</th>
+        </tr>
+        <tr>
+          <td id="insertname"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    <script src="Javascript.js"></script>
+</body>
+</html>
