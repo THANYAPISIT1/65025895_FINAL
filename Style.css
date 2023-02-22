@@ -25,3 +25,14 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+
+
+#NameInput{
+    width: 100%;
+}
+#SurnameInput{
+    width: 100%;
+}
+#GenderInput{
+    width: 100%;
+}
